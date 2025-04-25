@@ -1,4 +1,4 @@
-''' INFORMATION
+""" INFORMATION
 Finish the arithmetic_arranger function that receives a list of strings which are arithmetic problems, 
 and returns the problems arranged vertically and side-by-side. The function should optionally take a second argument. 
 When the second argument is set to True, the answers should be displayed.
@@ -17,14 +17,9 @@ There should be a single space between the operator and the longest of the two o
 Numbers should be right-aligned.
 There should be four spaces between each problem.
 There should be dashes at the bottom of each problem. The dashes should run along the entire length of each problem individually. (The example above shows what this should look like.)
+"""
 
-
-
-Solution by Javier Serrano Jodral
-'''
-
-
-
+# Solution by Javier Serrano Jodral
 
 def arithmetic_arranger(problems, show_answers=False):
     if len(problems) > 5:
